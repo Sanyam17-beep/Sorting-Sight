@@ -10,7 +10,7 @@ import BubbleSort, { BubbleSortDesc, BubbleSortKey } from './Algorithms/BubbleSo
 import SelectionSort, { SelectionSortDesc, SelectionSortKey} from './Algorithms/SelectionSort';
 import InsertionSort, { InsertionSortDesc, InsertionSortKey} from './Algorithms/InsertionSort';
 import MergeSort, { MergeSortDesc, MergeSortKey } from './Algorithms/MergeSort';
-
+import Footer from './components/footer/footer';
 
 class App extends Component {
   state = {
@@ -129,7 +129,7 @@ class App extends Component {
             desc={desc}
           />
         </main>
-
+        <Footer/>
       </div>
     );
   }

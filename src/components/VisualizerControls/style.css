@@ -1,0 +1,67 @@
+.VisualizerControls {
+  display: inline-flex;
+  align-items: center;
+  padding: 20px 0;
+  
+}
+
+.VisualizerControls__CenterButton {
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: #5eb5f0;
+  color: aliceblue;
+}
+
+.VisualizerControls__CenterButton:hover {
+  cursor: pointer;
+}
+.VisualizerControls__Button{
+  color: #5eb5f0;
+}
+.VisualizerControls__CenterButton:hover,
+.VisualizerControls__CenterButton:focus {
+  background-color: #1e84c9;
+  color: rgba(240, 248, 255, 0.782);
+}
+.VisualizerControls__Button:disabled{
+ color: #5eb5f0;
+}
+.VisualizerControls__SpeedButton{
+
+  font-size: large;
+  size: 20px;
+}
+.VisualizerControls__Button:hover,
+.VisualizerControls__Button:focus {
+  color: #1e84c9;
+}
+.VisualizerControls__CenterButton:disabled {
+  background-color: #f08c8c;
+  color: rgba(240, 248, 255, 0.547);
+}
+
+.VisualizerControls__Button,
+.VisualizerControls__SpeedButton {
+  padding: 0 10px;
+}
+
+.VisualizerControls__Icon {
+  height: 20px;
+  width: 20px;
+  margin: 0;
+}
+.VisualizerControls__SpeedButton{
+background-color: #1e84c9;
+padding-left: 25px;
+padding-right: -10px;
+border-radius: 25px;
+
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .VisualizerControls {
+    padding: 10px 0;
+  }
+}

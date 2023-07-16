@@ -1,0 +1,86 @@
+.Button {
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 7px;
+    display: inline-flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    min-width: 50px;
+    height: 36px;
+    border: none;
+    outline: none;
+    background: none;
+}
+.Button__Label{
+    color: aliceblue;
+    font-size: larger;
+}
+.Button:active {
+    outline: none;
+}
+
+.Button:hover {
+    cursor: pointer;
+}
+
+.Button:disabled {
+    cursor: default;
+    color: rgba(0, 0, 0, 0.37);
+}
+
+.Button__Icon {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+  
+}
+
+.Button_uppercase {
+    text-transform: uppercase;
+}
+
+.Button_dense {
+    height: 32px;
+    font-size: 10px;
+}
+
+.Button_raised {
+    position: relative;
+    color: #ffffff;
+    background-color: #32c537;
+}
+
+.Button_raised:hover,
+.Button_raised:focus {
+    /* z-index: 4; */
+    background-color: #1f8823;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.37);
+}
+
+.Button_raised:active {
+    /* z-index: 8; */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.37);
+}
+
+.Button_raised:disabled {
+    /* z-index: 0; */
+    box-shadow: none;
+    /* color: rgba(0, 0, 0, 0.37); */
+}
+
+.Button_outlined {
+    border: 1px solid;
+}
+
+.Button_outlined:disabled {
+    border-color: rgba(0, 0, 0, 0.37);
+}
+
+.Button_unelevated,
+.Button_unelevated:hover,
+.Button_unelevated:focus,
+.Button_unelevated:active {
+    box-shadow: none;
+}

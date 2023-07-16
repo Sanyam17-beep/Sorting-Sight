@@ -1,0 +1,49 @@
+.ColorKey {
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.ColorKey__Item {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 40px;
+    padding: 5px;
+}
+
+.ColorKey__Box {
+    /* flex-shrink: 0; */
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border-radius: 50%;
+
+}
+
+.ColorKey__Unsorted {
+    background-color: #ffffff;
+    border: 1px solid #3b3b3b;
+}
+
+.ColorKey__Sorted {
+    background-color: #32c537;
+}
+
+.ColorKey__GroupA {
+    background-color: #DEDB1F;
+}
+
+.ColorKey__GroupB {
+    background-color: #db1d1d;
+}
+
+.ColorKey__GroupC {
+    background-color: #3131f5;
+}
+
+.ColorKey__GroupD {
+    background-color: #ff71a0;
+}

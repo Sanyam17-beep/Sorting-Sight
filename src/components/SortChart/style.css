@@ -1,0 +1,19 @@
+.SortChart {
+  background-color: #c4c4c4;
+  height: 40vh;
+  min-height: 215px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .SortChart {
+    padding: 5px;
+    width: 90%;
+    margin: auto;
+  }
+}

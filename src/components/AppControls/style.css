@@ -1,0 +1,37 @@
+.AppControls__Size {
+    display: inline-flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    margin: 0 25px;
+}
+.AppControls__RandomizeBtn{
+    color: aliceblue;
+    top: -8px;
+    border-radius:25px 25px 25px 25px;
+    padding: 18px;
+    background-color: #4747f6;
+}
+@media only screen and (max-width: 600px) {
+    .AppControls__RandomizeBtn{
+        top: 50px;
+    }
+    .AppControls__Size{
+        position: relative;
+        top:40px;
+        left: 20px;
+     
+    }
+    .dr{
+        position: relative;
+        top:40px;
+        left: 20px;
+    }
+}
+.AppControls__RandomizeBtn:hover {
+    background-color: #6565f5;
+}
+
+
+    
+/* .ite{
+} */

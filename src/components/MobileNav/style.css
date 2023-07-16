@@ -1,0 +1,48 @@
+
+.MobileNav {
+    position: fixed;
+    top: 59px;
+    z-index: 105;
+    width: 225px;
+    min-height: calc(100vh - 60px);
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    background-color: #0c0c0cbd;
+    color: aliceblue;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, .39);
+    transition: all .5s ease-in-out;
+}
+
+.MobileNav__closed {
+    left: -300px;
+    opacity: 0;
+}
+
+.MobileNav__open {
+    opacity: 1;
+    left: 0;
+}
+
+/* .Backdrop .MobileNav__closed {
+    width: 0%;
+    height: 0%;
+    opacity: 0;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    position: relative;
+    z-index: -10;
+}
+
+.Backdrop .MobileNav__open {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: visible;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 100;
+} */

@@ -1,0 +1,74 @@
+.Menu {
+    position: relative;
+    display: inline-block;
+}
+
+.Menu__List {
+    position: absolute;
+    top: 105%;
+    left: 13px;
+    width: 80%;
+    right: 0;
+    z-index: 110;
+
+    max-height: 20vh;
+    border-top: 2px solid rgb(88, 32, 51);
+    list-style: none;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.756);
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.Menu__List.widthHeight::-webkit-scrollbar {
+    width: 14px;
+    height: 14px;
+  }
+  
+  .Menu__List::-webkit-scrollbar-track {
+
+    background-color: #ff653600;
+  }
+  
+  .Menu__List::-webkit-scrollbar-thumb {
+    background-color: rgba(175, 83, 114, 0.655);
+  }
+.Menu__Header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 3px;
+    
+}
+
+.Menu__SelectedItem {
+    min-width: 32px;
+    text-align: center;
+}
+
+.Menu__Placeholder {
+    color: rgba(240, 248, 255, 0.699);
+}
+
+.Menu__Item {
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.Menu__Item:hover,
+.Menu__Item:focus {
+    cursor: pointer;
+    background-color: #f6b8b8aa;
+    color: rgb(0, 0, 0);
+}
+.Menu__DropDownButton{
+    color: aliceblue;
+    left: -10px;
+}
+.Menu__DropDownButton:hover {
+    color: hsla(339,49%,30%,1);
+}

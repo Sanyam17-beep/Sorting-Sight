@@ -15,7 +15,7 @@ const TopBar = ({ mobileNavOpen, toggleMobileNav, children }) => {
                         onClick={toggleMobileNav}
                     />
 
-                    <h1 className='TopBar__Title'>Sorting Sight</h1>
+                    <h1 className='TopBar__Title'>SortViz</h1>
                 </section>
                 <section className='TopBar__Section TopBar__Section_align_end'>
                     {children}
